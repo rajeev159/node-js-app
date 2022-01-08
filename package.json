@@ -2,8 +2,15 @@
   "name": "Elastic-Beanstalk-Sample-App",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.17.2"
+  },
   "scripts": {
+    "test": "mocha './test/utill.test.js'",
     "start": "node app.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
   }
 }
