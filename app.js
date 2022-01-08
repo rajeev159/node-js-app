@@ -5,7 +5,7 @@ const utill = require('./utills/utill');
 
 app.get('/', function (req, res) {
     console.log("Sum of two number is: " + utill.sumtwonum(20, 30))
-    res.send("Hello world!");
+    res.send("Hello world! ");
 });
 
 
