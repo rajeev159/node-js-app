@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.18.2"
   },
   "scripts": {
     "test": "mocha './test/utill.test.js'",
